@@ -6,10 +6,10 @@
 
 int main(void)
 {
-	int ones = '0';
 	int tens = '0';
+	int ones = '0';
 
-	for (ones = '0'; tens <= '9'; tens++)
+	for (tens = '0'; tens <= '9'; tens++)
 	{
 		for (ones = '0'; ones <= '9' ones++)
 		{
@@ -25,4 +25,6 @@ int main(void)
 			}
 		}
 	}
+	putchar('\n');
+	return (0);
 }
