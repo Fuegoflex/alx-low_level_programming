@@ -6,12 +6,13 @@
 
 int main(void)
 {
-	chat x;
+	char x;
 
 	x = 'z';
 	while (x >= 'a')
 	{
 		putchar(x);
+		c--;
 	}
 	putchar('\n');
 	return (0);
