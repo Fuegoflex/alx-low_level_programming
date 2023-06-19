@@ -10,11 +10,11 @@ int main(void)
 	int z;
 
 	x = 'a';
-	z = '0';
-	while (z < 10)
+	d = '0';
+	while (d < 10)
 	{
-		putchar(z + '0');
-		z++;
+		putchar(d + '0');
+		d++;
 	}
 	while (x <= 'f')
 	{
